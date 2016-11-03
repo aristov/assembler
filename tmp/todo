@@ -1,0 +1,68 @@
+sauce labs +
+babel polyfill and dom4 => dependencies +
+remove dist build from git diff
+
+----
+
+!bug sinon http +
+
+jsdoc +
+repl +
+    localStorage +
+    html => htmldom ...
+    spec examples => tests ...
+dist +
+    core +
+    global core shim +
+    .min +
+        core +
+        global core shim +
+    test +
+        dialog in firefox +
+gh-pages +
+    www ...
+readme
+    repl +
+    installation +
+    usage +
+        cdn ...
+        es-module +
+        commonjs -
+        global HTMLDOM +
+        shims +
+    examples +
+    development +
+    test -
+    spec +
+    license +
+    informers
+        travis +
+        sauce ...
+        w3 -
+        npm +
+rename => htmlmodule +
+travis  +
+cdn (http://rawgit.com/, https://cdnjs.com/) +
+validation ...
+changelog +
+version +
+git tag +
+github release +
+npm publish +
+
+node.js render ?
+coverage ?
+
+----
+
+npm?
+  webmodule
+      dommodule
+          xmlmodule
+              htmlmodule
+                  htmlunknown?
+                  bemmodule
+              svgmodule
+              mathmodule
+              ariamodule
+              xulmodule
