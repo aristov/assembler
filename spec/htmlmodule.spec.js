@@ -1941,64 +1941,64 @@ describe('htmlmodule library', () => {
                 assert.equal(node.attributes.length, 25)
             })
             it('alt', () => {
-                assert.equal(node.alt, 'alternative input text')
+                assert.equal(test.alt, 'alternative input text')
             })
             it('accept', () => {
-                assert.equal(node.accept, 'SVG, PNG, PDF')
+                assert.equal(test.accept, 'SVG, PNG, PDF')
             })
             it('autocomplete', () => {
-                assert.equal(node.autocomplete, 'off')
+                assert.equal(test.autocomplete, 'off')
             })
             it('autofocus', () => {
-                assert.equal(node.autofocus, true)
+                assert.equal(test.autofocus, true)
             })
             it('checked', () => {
                 assert.equal(test.checked, true)
             })
             it('defaultChecked', () => {
-                assert.equal(node.defaultChecked, true)
+                assert.equal(test.defaultChecked, true)
             })
             it('disabled', () => {
                 assert.equal(test.disabled, true)
             })
             it.skip('formAction', () => {
-                assert(node.formAction.endsWith('/app/save'), 'proper action')
+                assert(test.formAction.endsWith('/app/save'), 'proper action')
             })
             it.skip('formEnctype', () => {
-                assert.equal(node.formEnctype, 'multipart/form-data')
+                assert.equal(test.formEnctype, 'multipart/form-data')
             })
             it.skip('formMethod', () => {
-                assert.equal(node.formMethod, 'post')
+                assert.equal(test.formMethod, 'post')
             })
             it('formNoValidate', () => {
-                assert.equal(node.formNoValidate, true)
+                assert.equal(test.formNoValidate, true)
             })
             it('formTarget', () => {
-                assert.equal(node.formTarget, '_top')
+                assert.equal(test.formTarget, '_top')
             })
             it.skip('indeterminate', () => {
-                assert.equal(node.indeterminate, true)
+                assert.equal(test.indeterminate, true)
             })
             it('max', () => {
-                assert.equal(node.max, '100')
+                assert.equal(test.max, '100')
             })
             it('maxLength', () => {
-                assert.equal(node.maxLength, 99)
+                assert.equal(test.maxLength, 99)
             })
             it('min', () => {
-                assert.equal(node.min, '0')
+                assert.equal(test.min, '0')
             })
             it('multiple', () => {
-                assert.equal(node.multiple, true)
+                assert.equal(test.multiple, true)
             })
             it('name', () => {
-                assert.equal(node.name, 'input_name')
+                assert.equal(test.name, 'input_name')
             })
             it('pattern', () => {
-                assert.equal(node.pattern, '[0-9][A-Z]{3}')
+                assert.equal(test.pattern, '[0-9][A-Z]{3}')
             })
             it('placeholder', () => {
-                assert.equal(node.placeholder, 'Paste')
+                assert.equal(test.placeholder, 'Paste')
             })
             it('readOnly', () => {
                 assert.equal(test.readOnly, true)
@@ -2007,13 +2007,13 @@ describe('htmlmodule library', () => {
                 assert.equal(test.required, true)
             })
             it('size', () => {
-                assert.equal(node.size, 5)
+                assert.equal(test.size, 5)
             })
             it('src', () => {
-                assert(node.src.endsWith('/data/input.js'), 'proper src')
+                assert(test.src.endsWith('/data/input.js'), 'proper src')
             })
             it('step', () => {
-                assert.equal(node.step, '2')
+                assert.equal(test.step, '2')
             })
             it('type', () => {
                 assert.equal(test.type, 'text')
@@ -2022,16 +2022,16 @@ describe('htmlmodule library', () => {
                 assert.equal(test.value, 'User input value')
             })
             it('defaultValue', () => {
-                assert.equal(node.defaultValue, 'Default value')
+                assert.equal(test.defaultValue, 'Default value')
             })
             it('title', () => {
-                assert.equal(node.title, 'A part number is a digit followed by three uppercase letters.')
+                assert.equal(test.title, 'A part number is a digit followed by three uppercase letters.')
             })
             it('form attribute', () => {
-                assert.equal(node.getAttribute('form'), 'saveform')
+                assert.equal(test.getAttribute('form'), 'saveform')
             })
             it('list attribute', () => {
-                assert.equal(node.getAttribute('list'), 'suggestlist')
+                assert.equal(test.getAttribute('list'), 'suggestlist')
             })
             it('has no child nodes', () => {
                 assert.isFalse(node.hasChildNodes(), 'has no child nodes')
